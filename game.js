@@ -494,7 +494,7 @@ module.exports = {
 			return (socket.game_nickname);
 		});
 		var numClients = validClients.length;
-		var reqPlayers = playerRoles.length;
+		var reqPlayers = 4;
 		if(numClients >= reqPlayers) {
 			updateAnnouncement('Required number of players reached');
 			state = -1;
