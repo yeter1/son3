@@ -449,7 +449,7 @@ function startingCountdown (duration, ticks) {
 		return (socket.game_nickname);
 	});
 	var numClients = validClients.length;
-	var reqPlayers = playerRoles.length;
+	var reqPlayers = 4;
 	if (numClients >= reqPlayers) { //need to move this redundant code to its own function
 		var ticksLeft = duration - ticks;
 		if (ticksLeft) {
